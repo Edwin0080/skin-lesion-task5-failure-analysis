@@ -1,0 +1,43 @@
+﻿image_id,true_label,pred_label_traditional,correct_traditional,error_type_traditional,pred_label_deep,correct_deep,confidence,error_type_deep,hair_ratio,age,sex,localization,overlap_group
+ISIC_0024554,mel,bkl,False,mel->bkl,bkl,False,0.6685736,mel->bkl,0.002,65.0,female,face,both_wrong
+ISIC_0031550,mel,bkl,False,mel->bkl,nv,False,0.50475854,mel->nv,0.001,80.0,female,chest,both_wrong
+ISIC_0027859,bkl,akiec,False,bkl->akiec,mel,False,0.6676259,bkl->mel,0.013,70.0,female,face,both_wrong
+ISIC_0029683,bkl,nv,False,bkl->nv,mel,False,0.83587,bkl->mel,0.033,65.0,male,unknown,both_wrong
+ISIC_0024981,bkl,nv,False,bkl->nv,mel,False,0.65620875,bkl->mel,0.229,80.0,male,scalp,both_wrong
+ISIC_0026796,mel,bkl,False,mel->bkl,bkl,False,0.82928246,mel->bkl,0.003,70.0,male,back,both_wrong
+ISIC_0030756,mel,nv,False,mel->nv,nv,False,0.7008467,mel->nv,0.063,85.0,male,chest,both_wrong
+ISIC_0026014,akiec,nv,False,akiec->nv,nv,False,0.64790535,akiec->nv,0.034,85.0,male,lower extremity,both_wrong
+ISIC_0025778,nv,bkl,False,nv->bkl,bkl,False,0.50602204,nv->bkl,0.003,75.0,female,upper extremity,both_wrong
+ISIC_0029289,bkl,nv,False,bkl->nv,nv,False,0.997402,bkl->nv,0.007,60.0,female,trunk,both_wrong
+ISIC_0026558,mel,akiec,False,mel->akiec,nv,False,0.7330991,mel->nv,0.006,65.0,male,back,both_wrong
+ISIC_0033432,mel,bkl,False,mel->bkl,nv,False,0.55831766,mel->nv,0.033,55.0,male,trunk,both_wrong
+ISIC_0032327,nv,bkl,False,nv->bkl,bkl,False,0.5393915,nv->bkl,0.004,80.0,male,back,both_wrong
+ISIC_0034005,mel,nv,False,mel->nv,nv,False,0.29678175,mel->nv,0.01,75.0,male,foot,both_wrong
+ISIC_0030107,mel,nv,False,mel->nv,nv,False,0.99972177,mel->nv,0.073,20.0,female,scalp,both_wrong
+ISIC_0025366,bkl,nv,False,bkl->nv,nv,False,0.9761406,bkl->nv,0.056,50.0,female,trunk,both_wrong
+ISIC_0032675,bkl,nv,False,bkl->nv,nv,False,0.9051301,bkl->nv,0.028,75.0,male,back,both_wrong
+ISIC_0028611,bkl,nv,False,bkl->nv,akiec,False,0.99960274,bkl->akiec,0.004,80.0,female,lower extremity,both_wrong
+ISIC_0024525,mel,akiec,False,mel->akiec,nv,False,0.57197416,mel->nv,0.068,65.0,male,upper extremity,both_wrong
+ISIC_0027797,mel,nv,False,mel->nv,nv,False,0.87981856,mel->nv,0.003,50.0,female,back,both_wrong
+ISIC_0034107,mel,nv,False,mel->nv,nv,False,0.60151035,mel->nv,0.007,40.0,female,chest,both_wrong
+ISIC_0032079,mel,bkl,False,mel->bkl,nv,False,0.51506674,mel->nv,0.019,60.0,female,chest,both_wrong
+ISIC_0024675,mel,nv,False,mel->nv,nv,False,0.9050555,mel->nv,0.014,65.0,female,lower extremity,both_wrong
+ISIC_0033444,mel,bkl,False,mel->bkl,nv,False,0.9953502,mel->nv,0.035,50.0,male,abdomen,both_wrong
+ISIC_0031191,akiec,nv,False,akiec->nv,mel,False,0.98454946,akiec->mel,0.026,60.0,male,lower extremity,both_wrong
+ISIC_0031953,mel,nv,False,mel->nv,nv,False,0.59937847,mel->nv,0.016,55.0,male,abdomen,both_wrong
+ISIC_0025264,akiec,mel,False,akiec->mel,mel,False,0.9947074,akiec->mel,0.041,75.0,male,back,both_wrong
+ISIC_0029705,mel,nv,False,mel->nv,nv,False,0.5996774,mel->nv,0.04,80.0,male,chest,both_wrong
+ISIC_0025948,akiec,nv,False,akiec->nv,bkl,False,0.66375214,akiec->bkl,0.041,75.0,male,face,both_wrong
+ISIC_0030849,bkl,akiec,False,bkl->akiec,nv,False,0.8158577,bkl->nv,0.001,65.0,male,upper extremity,both_wrong
+ISIC_0033757,nv,bkl,False,nv->bkl,bkl,False,0.5600464,nv->bkl,0.027,10.0,female,lower extremity,both_wrong
+ISIC_0033175,mel,nv,False,mel->nv,nv,False,0.78266835,mel->nv,0.067,60.0,male,lower extremity,both_wrong
+ISIC_0028173,mel,nv,False,mel->nv,nv,False,0.98274064,mel->nv,0.014,45.0,male,back,both_wrong
+ISIC_0028760,mel,nv,False,mel->nv,nv,False,0.9481964,mel->nv,0.022,30.0,female,abdomen,both_wrong
+ISIC_0032929,bkl,nv,False,bkl->nv,mel,False,0.87456685,bkl->mel,0.005,75.0,female,face,both_wrong
+ISIC_0030034,mel,nv,False,mel->nv,nv,False,0.46968657,mel->nv,0.047,50.0,female,back,both_wrong
+ISIC_0032870,mel,bkl,False,mel->bkl,bkl,False,0.4336909,mel->bkl,0.045,85.0,male,upper extremity,both_wrong
+ISIC_0027452,akiec,nv,False,akiec->nv,mel,False,0.69479656,akiec->mel,0.02,70.0,male,upper extremity,both_wrong
+ISIC_0026369,mel,nv,False,mel->nv,nv,False,0.89589006,mel->nv,0.041,30.0,female,lower extremity,both_wrong
+ISIC_0028579,mel,bkl,False,mel->bkl,nv,False,0.5710021,mel->nv,0.003,35.0,female,neck,both_wrong
+ISIC_0027151,bkl,nv,False,bkl->nv,nv,False,0.83290493,bkl->nv,0.002,0.0,female,back,both_wrong
+ISIC_0031131,nv,bkl,False,nv->bkl,mel,False,0.57053614,nv->mel,0.01,75.0,male,face,both_wrong

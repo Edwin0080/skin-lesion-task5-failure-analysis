@@ -1,0 +1,6 @@
+﻿group,n_features
+LBP_ROI,256
+LBP_BIMF,256
+HSV,40
+ABCD,4
+GLCM,4

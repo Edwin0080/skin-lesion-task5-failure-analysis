@@ -1,0 +1,30 @@
+﻿{
+  "source": "preprocessing_metadata_origin_images",
+  "n_predictions": 2003,
+  "model_has_predict_proba": false,
+  "model_has_decision_function": true,
+  "saved_metrics": {
+    "accuracy": 0.7194208686969545,
+    "balanced_accuracy": 0.2976967853845823,
+    "precision_macro": 0.35231137852090655,
+    "recall_macro": 0.2976967853845823,
+    "f1_macro": 0.31672509537489263
+  },
+  "recomputed_metrics": {
+    "accuracy": 0.7244133799301048,
+    "balanced_accuracy": 0.30426351962121945,
+    "precision_macro": 0.3532711514728035,
+    "recall_macro": 0.30426351962121945,
+    "f1_macro": 0.3211931755973086
+  },
+  "metric_abs_diff": {
+    "accuracy": 0.004992511233150254,
+    "balanced_accuracy": 0.006566734236637173,
+    "precision_macro": 0.0009597729518969755,
+    "recall_macro": 0.006566734236637173,
+    "f1_macro": 0.00446808022241596
+  },
+  "exact_metric_match": false,
+  "max_metric_abs_diff": 0.006566734236637173,
+  "close_metric_match_0p01": true
+}

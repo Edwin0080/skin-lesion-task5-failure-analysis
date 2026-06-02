@@ -1,0 +1,75 @@
+﻿image_id,overlap_group,true_label,traditional_pred,deep_pred,deep_confidence,hair_ratio,age,sex,localization,reason_category,review_priority,error_reason
+ISIC_0030107,both_wrong,mel,nv,nv,0.99972177,0.073,20.0,female,scalp,shared_mel_to_nv_high_risk,high,两个模型都把 mel 判成 nv，是最高风险方向；这通常说明病灶整体外观接近普通痣，边界/颜色不均等恶性线索不够突出。 深度模型置信度很高，提示这是需要重点复核的过度自信错误。 hair_ratio 较高，毛发或线状纹理可能干扰边界和局部纹理判断。 localization=scalp，该部位更容易出现光照、毛发、角质或背景纹理干扰。
+ISIC_0028611,both_wrong,bkl,nv,akiec,0.99960274,0.004,80.0,female,lower extremity,shared_bkl_boundary_case,medium-high,bkl 同时难倒传统和深度模型，说明其颜色集中、角化线索弱或纹理与 nv/mel/akiec 边界重叠。 深度模型置信度很高，提示这是需要重点复核的过度自信错误。
+ISIC_0029289,both_wrong,bkl,nv,nv,0.997402,0.007,60.0,female,trunk,shared_bkl_boundary_case,medium-high,bkl 同时难倒传统和深度模型，说明其颜色集中、角化线索弱或纹理与 nv/mel/akiec 边界重叠。 深度模型置信度很高，提示这是需要重点复核的过度自信错误。
+ISIC_0033444,both_wrong,mel,bkl,nv,0.9953502,0.035,50.0,male,abdomen,shared_mel_to_nv_high_risk,high,两个模型都把 mel 判成 nv，是最高风险方向；这通常说明病灶整体外观接近普通痣，边界/颜色不均等恶性线索不够突出。 深度模型置信度很高，提示这是需要重点复核的过度自信错误。
+ISIC_0025264,both_wrong,akiec,mel,mel,0.9947074,0.041,75.0,male,back,shared_akiec_boundary_case,medium-high,akiec 少数类样本同时失败，常见原因是红褐色、鳞屑/角化样纹理与 mel、bcc、bkl 或 nv 的局部表现相似。 深度模型置信度很高，提示这是需要重点复核的过度自信错误。
+ISIC_0031191,both_wrong,akiec,nv,mel,0.98454946,0.026,60.0,male,lower extremity,shared_akiec_boundary_case,medium-high,akiec 少数类样本同时失败，常见原因是红褐色、鳞屑/角化样纹理与 mel、bcc、bkl 或 nv 的局部表现相似。 深度模型置信度很高，提示这是需要重点复核的过度自信错误。
+ISIC_0028173,both_wrong,mel,nv,nv,0.98274064,0.014,45.0,male,back,shared_mel_to_nv_high_risk,high,两个模型都把 mel 判成 nv，是最高风险方向；这通常说明病灶整体外观接近普通痣，边界/颜色不均等恶性线索不够突出。 深度模型置信度很高，提示这是需要重点复核的过度自信错误。
+ISIC_0025366,both_wrong,bkl,nv,nv,0.9761406,0.056,50.0,female,trunk,shared_bkl_boundary_case,medium-high,bkl 同时难倒传统和深度模型，说明其颜色集中、角化线索弱或纹理与 nv/mel/akiec 边界重叠。 深度模型置信度很高，提示这是需要重点复核的过度自信错误。 hair_ratio 较高，毛发或线状纹理可能干扰边界和局部纹理判断。
+ISIC_0028760,both_wrong,mel,nv,nv,0.9481964,0.022,30.0,female,abdomen,shared_mel_to_nv_high_risk,high,两个模型都把 mel 判成 nv，是最高风险方向；这通常说明病灶整体外观接近普通痣，边界/颜色不均等恶性线索不够突出。 深度模型置信度很高，提示这是需要重点复核的过度自信错误。
+ISIC_0032675,both_wrong,bkl,nv,nv,0.9051301,0.028,75.0,male,back,shared_bkl_boundary_case,medium-high,bkl 同时难倒传统和深度模型，说明其颜色集中、角化线索弱或纹理与 nv/mel/akiec 边界重叠。 深度模型置信度很高，提示这是需要重点复核的过度自信错误。
+ISIC_0024675,both_wrong,mel,nv,nv,0.9050555,0.014,65.0,female,lower extremity,shared_mel_to_nv_high_risk,high,两个模型都把 mel 判成 nv，是最高风险方向；这通常说明病灶整体外观接近普通痣，边界/颜色不均等恶性线索不够突出。 深度模型置信度很高，提示这是需要重点复核的过度自信错误。
+ISIC_0026369,both_wrong,mel,nv,nv,0.89589006,0.041,30.0,female,lower extremity,shared_mel_to_nv_high_risk,high,两个模型都把 mel 判成 nv，是最高风险方向；这通常说明病灶整体外观接近普通痣，边界/颜色不均等恶性线索不够突出。
+ISIC_0027797,both_wrong,mel,nv,nv,0.87981856,0.003,50.0,female,back,shared_mel_to_nv_high_risk,high,两个模型都把 mel 判成 nv，是最高风险方向；这通常说明病灶整体外观接近普通痣，边界/颜色不均等恶性线索不够突出。
+ISIC_0032929,both_wrong,bkl,nv,mel,0.87456685,0.005,75.0,female,face,shared_bkl_boundary_case,medium,bkl 同时难倒传统和深度模型，说明其颜色集中、角化线索弱或纹理与 nv/mel/akiec 边界重叠。 localization=face，该部位更容易出现光照、毛发、角质或背景纹理干扰。
+ISIC_0029683,both_wrong,bkl,nv,mel,0.83587,0.033,65.0,male,unknown,shared_bkl_boundary_case,medium,bkl 同时难倒传统和深度模型，说明其颜色集中、角化线索弱或纹理与 nv/mel/akiec 边界重叠。
+ISIC_0027151,both_wrong,bkl,nv,nv,0.83290493,0.002,0.0,female,back,shared_bkl_boundary_case,medium,bkl 同时难倒传统和深度模型，说明其颜色集中、角化线索弱或纹理与 nv/mel/akiec 边界重叠。
+ISIC_0026796,both_wrong,mel,bkl,bkl,0.82928246,0.003,70.0,male,back,shared_mel_bkl_overlap,medium-high,两个模型都没有识别出 mel，且深度模型偏向 bkl，说明棕黑斑片、角化样纹理或颜色不均容易被解释为脂溢性角化病。
+ISIC_0030849,both_wrong,bkl,akiec,nv,0.8158577,0.001,65.0,male,upper extremity,shared_bkl_boundary_case,medium,bkl 同时难倒传统和深度模型，说明其颜色集中、角化线索弱或纹理与 nv/mel/akiec 边界重叠。
+ISIC_0033175,both_wrong,mel,nv,nv,0.78266835,0.067,60.0,male,lower extremity,shared_mel_to_nv_high_risk,high,两个模型都把 mel 判成 nv，是最高风险方向；这通常说明病灶整体外观接近普通痣，边界/颜色不均等恶性线索不够突出。 hair_ratio 较高，毛发或线状纹理可能干扰边界和局部纹理判断。
+ISIC_0026558,both_wrong,mel,akiec,nv,0.7330991,0.006,65.0,male,back,shared_mel_to_nv_high_risk,high,两个模型都把 mel 判成 nv，是最高风险方向；这通常说明病灶整体外观接近普通痣，边界/颜色不均等恶性线索不够突出。
+ISIC_0030756,both_wrong,mel,nv,nv,0.7008467,0.063,85.0,male,chest,shared_mel_to_nv_high_risk,high,两个模型都把 mel 判成 nv，是最高风险方向；这通常说明病灶整体外观接近普通痣，边界/颜色不均等恶性线索不够突出。 hair_ratio 较高，毛发或线状纹理可能干扰边界和局部纹理判断。
+ISIC_0027452,both_wrong,akiec,nv,mel,0.69479656,0.02,70.0,male,upper extremity,shared_akiec_boundary_case,medium-high,akiec 少数类样本同时失败，常见原因是红褐色、鳞屑/角化样纹理与 mel、bcc、bkl 或 nv 的局部表现相似。
+ISIC_0024554,both_wrong,mel,bkl,bkl,0.6685736,0.002,65.0,female,face,shared_mel_bkl_overlap,medium-high,两个模型都没有识别出 mel，且深度模型偏向 bkl，说明棕黑斑片、角化样纹理或颜色不均容易被解释为脂溢性角化病。 localization=face，该部位更容易出现光照、毛发、角质或背景纹理干扰。
+ISIC_0027859,both_wrong,bkl,akiec,mel,0.6676259,0.013,70.0,female,face,shared_bkl_boundary_case,medium,bkl 同时难倒传统和深度模型，说明其颜色集中、角化线索弱或纹理与 nv/mel/akiec 边界重叠。 localization=face，该部位更容易出现光照、毛发、角质或背景纹理干扰。
+ISIC_0025948,both_wrong,akiec,nv,bkl,0.66375214,0.041,75.0,male,face,shared_akiec_boundary_case,medium-high,akiec 少数类样本同时失败，常见原因是红褐色、鳞屑/角化样纹理与 mel、bcc、bkl 或 nv 的局部表现相似。 localization=face，该部位更容易出现光照、毛发、角质或背景纹理干扰。
+ISIC_0024981,both_wrong,bkl,nv,mel,0.65620875,0.229,80.0,male,scalp,shared_bkl_boundary_case,medium,bkl 同时难倒传统和深度模型，说明其颜色集中、角化线索弱或纹理与 nv/mel/akiec 边界重叠。 hair_ratio 较高，毛发或线状纹理可能干扰边界和局部纹理判断。 localization=scalp，该部位更容易出现光照、毛发、角质或背景纹理干扰。
+ISIC_0026014,both_wrong,akiec,nv,nv,0.64790535,0.034,85.0,male,lower extremity,shared_akiec_boundary_case,medium-high,akiec 少数类样本同时失败，常见原因是红褐色、鳞屑/角化样纹理与 mel、bcc、bkl 或 nv 的局部表现相似。
+ISIC_0034107,both_wrong,mel,nv,nv,0.60151035,0.007,40.0,female,chest,shared_mel_to_nv_high_risk,high,两个模型都把 mel 判成 nv，是最高风险方向；这通常说明病灶整体外观接近普通痣，边界/颜色不均等恶性线索不够突出。
+ISIC_0029705,both_wrong,mel,nv,nv,0.5996774,0.04,80.0,male,chest,shared_mel_to_nv_high_risk,high,两个模型都把 mel 判成 nv，是最高风险方向；这通常说明病灶整体外观接近普通痣，边界/颜色不均等恶性线索不够突出。
+ISIC_0031953,both_wrong,mel,nv,nv,0.59937847,0.016,55.0,male,abdomen,shared_mel_to_nv_high_risk,high,两个模型都把 mel 判成 nv，是最高风险方向；这通常说明病灶整体外观接近普通痣，边界/颜色不均等恶性线索不够突出。
+ISIC_0024525,both_wrong,mel,akiec,nv,0.57197416,0.068,65.0,male,upper extremity,shared_mel_to_nv_high_risk,high,两个模型都把 mel 判成 nv，是最高风险方向；这通常说明病灶整体外观接近普通痣，边界/颜色不均等恶性线索不够突出。 hair_ratio 较高，毛发或线状纹理可能干扰边界和局部纹理判断。
+ISIC_0028579,both_wrong,mel,bkl,nv,0.5710021,0.003,35.0,female,neck,shared_mel_to_nv_high_risk,high,两个模型都把 mel 判成 nv，是最高风险方向；这通常说明病灶整体外观接近普通痣，边界/颜色不均等恶性线索不够突出。
+ISIC_0031131,both_wrong,nv,bkl,mel,0.57053614,0.01,75.0,male,face,shared_nv_false_positive,medium,普通痣被两个模型同时误判，说明该 nv 样本可能具有较强局部色素、边界不规则或红紫色区域，触发了非 nv 响应。 localization=face，该部位更容易出现光照、毛发、角质或背景纹理干扰。
+ISIC_0033757,both_wrong,nv,bkl,bkl,0.5600464,0.027,10.0,female,lower extremity,shared_nv_false_positive,medium,普通痣被两个模型同时误判，说明该 nv 样本可能具有较强局部色素、边界不规则或红紫色区域，触发了非 nv 响应。
+ISIC_0033432,both_wrong,mel,bkl,nv,0.55831766,0.033,55.0,male,trunk,shared_mel_to_nv_high_risk,high,两个模型都把 mel 判成 nv，是最高风险方向；这通常说明病灶整体外观接近普通痣，边界/颜色不均等恶性线索不够突出。
+ISIC_0032327,both_wrong,nv,bkl,bkl,0.5393915,0.004,80.0,male,back,shared_nv_false_positive,medium,普通痣被两个模型同时误判，说明该 nv 样本可能具有较强局部色素、边界不规则或红紫色区域，触发了非 nv 响应。
+ISIC_0032079,both_wrong,mel,bkl,nv,0.51506674,0.019,60.0,female,chest,shared_mel_to_nv_high_risk,high,两个模型都把 mel 判成 nv，是最高风险方向；这通常说明病灶整体外观接近普通痣，边界/颜色不均等恶性线索不够突出。
+ISIC_0025778,both_wrong,nv,bkl,bkl,0.50602204,0.003,75.0,female,upper extremity,shared_nv_false_positive,medium,普通痣被两个模型同时误判，说明该 nv 样本可能具有较强局部色素、边界不规则或红紫色区域，触发了非 nv 响应。
+ISIC_0031550,both_wrong,mel,bkl,nv,0.50475854,0.001,80.0,female,chest,shared_mel_to_nv_high_risk,high,两个模型都把 mel 判成 nv，是最高风险方向；这通常说明病灶整体外观接近普通痣，边界/颜色不均等恶性线索不够突出。
+ISIC_0030034,both_wrong,mel,nv,nv,0.46968657,0.047,50.0,female,back,shared_mel_to_nv_high_risk,high,两个模型都把 mel 判成 nv，是最高风险方向；这通常说明病灶整体外观接近普通痣，边界/颜色不均等恶性线索不够突出。
+ISIC_0032870,both_wrong,mel,bkl,bkl,0.4336909,0.045,85.0,male,upper extremity,shared_mel_bkl_overlap,medium-high,两个模型都没有识别出 mel，且深度模型偏向 bkl，说明棕黑斑片、角化样纹理或颜色不均容易被解释为脂溢性角化病。
+ISIC_0034005,both_wrong,mel,nv,nv,0.29678175,0.01,75.0,male,foot,shared_mel_to_nv_high_risk,high,两个模型都把 mel 判成 nv，是最高风险方向；这通常说明病灶整体外观接近普通痣，边界/颜色不均等恶性线索不够突出。 localization=foot，该部位更容易出现光照、毛发、角质或背景纹理干扰。
+ISIC_0034205,traditional_correct_deep_wrong,mel,mel,nv,0.9959276,0.05,55.0,female,upper extremity,deep_missed_or_shifted_mel,high,传统模型保住了 mel，但深度模型把它推向视觉相近类别，说明该图的恶性线索可能较弱或被局部良性纹理主导。 深度模型置信度很高，提示这是需要重点复核的过度自信错误。 hair_ratio 较高，毛发或线状纹理可能干扰边界和局部纹理判断。
+ISIC_0029991,traditional_correct_deep_wrong,bkl,bkl,akiec,0.9907898,0.037,75.0,male,back,deep_overreacts_to_bkl_texture,medium-high,bkl 的角化/粗糙纹理被深度模型解释成 akiec、mel 或 bcc 线索，属于纹理过度响应。 深度模型置信度很高，提示这是需要重点复核的过度自信错误。
+ISIC_0033406,traditional_correct_deep_wrong,nv,nv,mel,0.9820188,0.02,50.0,female,lower extremity,deep_false_alarm_on_nv,medium-high,传统模型判断正确而深度模型误报，主要是普通痣中局部深色、红紫色或纹理斑块触发了深度模型的高敏感恶性/血管类响应。 深度模型置信度很高，提示这是需要重点复核的过度自信错误。
+ISIC_0029534,traditional_correct_deep_wrong,nv,nv,vasc,0.97401386,0.01,65.0,male,face,deep_false_alarm_on_nv,medium-high,传统模型判断正确而深度模型误报，主要是普通痣中局部深色、红紫色或纹理斑块触发了深度模型的高敏感恶性/血管类响应。 深度模型置信度很高，提示这是需要重点复核的过度自信错误。 localization=face，该部位更容易出现光照、毛发、角质或背景纹理干扰。
+ISIC_0026608,traditional_correct_deep_wrong,nv,nv,mel,0.9654902,0.011,50.0,male,upper extremity,deep_false_alarm_on_nv,medium-high,传统模型判断正确而深度模型误报，主要是普通痣中局部深色、红紫色或纹理斑块触发了深度模型的高敏感恶性/血管类响应。 深度模型置信度很高，提示这是需要重点复核的过度自信错误。
+ISIC_0031043,traditional_correct_deep_wrong,akiec,akiec,bcc,0.9576061,0.004,85.0,male,face,deep_specific_failure,medium-high,传统模型在该样本上保留了正确的全局颜色/纹理特征，但深度模型被局部区域或类别相似性牵引。 深度模型置信度很高，提示这是需要重点复核的过度自信错误。 localization=face，该部位更容易出现光照、毛发、角质或背景纹理干扰。
+ISIC_0027066,traditional_correct_deep_wrong,nv,nv,mel,0.9419058,0.07,65.0,male,upper extremity,deep_false_alarm_on_nv,medium-high,传统模型判断正确而深度模型误报，主要是普通痣中局部深色、红紫色或纹理斑块触发了深度模型的高敏感恶性/血管类响应。 深度模型置信度很高，提示这是需要重点复核的过度自信错误。 hair_ratio 较高，毛发或线状纹理可能干扰边界和局部纹理判断。
+ISIC_0025847,traditional_correct_deep_wrong,nv,nv,mel,0.8899367,0.001,40.0,female,back,deep_false_alarm_on_nv,medium,传统模型判断正确而深度模型误报，主要是普通痣中局部深色、红紫色或纹理斑块触发了深度模型的高敏感恶性/血管类响应。
+ISIC_0027991,traditional_correct_deep_wrong,bkl,bkl,mel,0.8814675,0.014,55.0,male,back,deep_overreacts_to_bkl_texture,medium,bkl 的角化/粗糙纹理被深度模型解释成 akiec、mel 或 bcc 线索，属于纹理过度响应。
+ISIC_0031377,traditional_correct_deep_wrong,mel,mel,nv,0.84951854,0.001,65.0,male,back,deep_missed_or_shifted_mel,high,传统模型保住了 mel，但深度模型把它推向视觉相近类别，说明该图的恶性线索可能较弱或被局部良性纹理主导。
+ISIC_0026340,traditional_correct_deep_wrong,nv,nv,mel,0.8421172,0.072,40.0,female,lower extremity,deep_false_alarm_on_nv,medium,传统模型判断正确而深度模型误报，主要是普通痣中局部深色、红紫色或纹理斑块触发了深度模型的高敏感恶性/血管类响应。 hair_ratio 较高，毛发或线状纹理可能干扰边界和局部纹理判断。
+ISIC_0028706,traditional_correct_deep_wrong,nv,nv,vasc,0.8183812,0.04,70.0,female,foot,deep_false_alarm_on_nv,medium,传统模型判断正确而深度模型误报，主要是普通痣中局部深色、红紫色或纹理斑块触发了深度模型的高敏感恶性/血管类响应。 localization=foot，该部位更容易出现光照、毛发、角质或背景纹理干扰。
+ISIC_0025681,traditional_correct_deep_wrong,nv,nv,mel,0.78426474,0.005,70.0,male,upper extremity,deep_false_alarm_on_nv,medium,传统模型判断正确而深度模型误报，主要是普通痣中局部深色、红紫色或纹理斑块触发了深度模型的高敏感恶性/血管类响应。
+ISIC_0033804,traditional_correct_deep_wrong,mel,mel,nv,0.77430344,0.029,30.0,female,back,deep_missed_or_shifted_mel,high,传统模型保住了 mel，但深度模型把它推向视觉相近类别，说明该图的恶性线索可能较弱或被局部良性纹理主导。
+ISIC_0027911,traditional_correct_deep_wrong,nv,nv,bkl,0.7601223,0.014,50.0,male,lower extremity,deep_false_alarm_on_nv,medium,传统模型判断正确而深度模型误报，主要是普通痣中局部深色、红紫色或纹理斑块触发了深度模型的高敏感恶性/血管类响应。
+ISIC_0031756,traditional_correct_deep_wrong,nv,nv,vasc,0.75118256,0.037,70.0,male,hand,deep_false_alarm_on_nv,medium,传统模型判断正确而深度模型误报，主要是普通痣中局部深色、红紫色或纹理斑块触发了深度模型的高敏感恶性/血管类响应。 localization=hand，该部位更容易出现光照、毛发、角质或背景纹理干扰。
+ISIC_0031411,traditional_correct_deep_wrong,nv,nv,mel,0.7425966,0.011,55.0,female,lower extremity,deep_false_alarm_on_nv,medium,传统模型判断正确而深度模型误报，主要是普通痣中局部深色、红紫色或纹理斑块触发了深度模型的高敏感恶性/血管类响应。
+ISIC_0027346,traditional_correct_deep_wrong,nv,nv,mel,0.7423798,0.003,55.0,male,back,deep_false_alarm_on_nv,medium,传统模型判断正确而深度模型误报，主要是普通痣中局部深色、红紫色或纹理斑块触发了深度模型的高敏感恶性/血管类响应。
+ISIC_0030247,traditional_correct_deep_wrong,nv,nv,bkl,0.7020568,0.003,60.0,male,upper extremity,deep_false_alarm_on_nv,medium,传统模型判断正确而深度模型误报，主要是普通痣中局部深色、红紫色或纹理斑块触发了深度模型的高敏感恶性/血管类响应。
+ISIC_0027578,traditional_correct_deep_wrong,nv,nv,mel,0.6826397,0.002,80.0,male,back,deep_false_alarm_on_nv,medium,传统模型判断正确而深度模型误报，主要是普通痣中局部深色、红紫色或纹理斑块触发了深度模型的高敏感恶性/血管类响应。
+ISIC_0032334,traditional_correct_deep_wrong,nv,nv,mel,0.6618306,0.031,40.0,male,back,deep_false_alarm_on_nv,medium,传统模型判断正确而深度模型误报，主要是普通痣中局部深色、红紫色或纹理斑块触发了深度模型的高敏感恶性/血管类响应。
+ISIC_0024924,traditional_correct_deep_wrong,nv,nv,mel,0.65369034,0.013,55.0,male,back,deep_false_alarm_on_nv,medium,传统模型判断正确而深度模型误报，主要是普通痣中局部深色、红紫色或纹理斑块触发了深度模型的高敏感恶性/血管类响应。
+ISIC_0033910,traditional_correct_deep_wrong,bkl,bkl,bcc,0.64972025,0.002,75.0,male,back,deep_overreacts_to_bkl_texture,medium,bkl 的角化/粗糙纹理被深度模型解释成 akiec、mel 或 bcc 线索，属于纹理过度响应。
+ISIC_0031635,traditional_correct_deep_wrong,nv,nv,mel,0.6348278,0.062,45.0,female,trunk,deep_false_alarm_on_nv,medium,传统模型判断正确而深度模型误报，主要是普通痣中局部深色、红紫色或纹理斑块触发了深度模型的高敏感恶性/血管类响应。 hair_ratio 较高，毛发或线状纹理可能干扰边界和局部纹理判断。
+ISIC_0032096,traditional_correct_deep_wrong,nv,nv,bkl,0.6068303,0.02,55.0,female,abdomen,deep_false_alarm_on_nv,medium,传统模型判断正确而深度模型误报，主要是普通痣中局部深色、红紫色或纹理斑块触发了深度模型的高敏感恶性/血管类响应。
+ISIC_0034203,traditional_correct_deep_wrong,nv,nv,bcc,0.56698626,0.046,40.0,female,back,deep_false_alarm_on_nv,medium,传统模型判断正确而深度模型误报，主要是普通痣中局部深色、红紫色或纹理斑块触发了深度模型的高敏感恶性/血管类响应。
+ISIC_0032107,traditional_correct_deep_wrong,nv,nv,mel,0.5354939,0.003,70.0,female,back,deep_false_alarm_on_nv,medium,传统模型判断正确而深度模型误报，主要是普通痣中局部深色、红紫色或纹理斑块触发了深度模型的高敏感恶性/血管类响应。
+ISIC_0026268,traditional_correct_deep_wrong,mel,mel,akiec,0.52435374,0.091,80.0,male,face,deep_missed_or_shifted_mel,medium-high,传统模型保住了 mel，但深度模型把它推向视觉相近类别，说明该图的恶性线索可能较弱或被局部良性纹理主导。 hair_ratio 较高，毛发或线状纹理可能干扰边界和局部纹理判断。 localization=face，该部位更容易出现光照、毛发、角质或背景纹理干扰。
+ISIC_0031160,traditional_correct_deep_wrong,nv,nv,mel,0.5091347,0.031,35.0,female,upper extremity,deep_false_alarm_on_nv,medium,传统模型判断正确而深度模型误报，主要是普通痣中局部深色、红紫色或纹理斑块触发了深度模型的高敏感恶性/血管类响应。
+ISIC_0032860,traditional_correct_deep_wrong,nv,nv,vasc,0.49756756,0.009,40.0,female,neck,deep_false_alarm_on_nv,medium,传统模型判断正确而深度模型误报，主要是普通痣中局部深色、红紫色或纹理斑块触发了深度模型的高敏感恶性/血管类响应。
+ISIC_0025155,traditional_correct_deep_wrong,mel,mel,bkl,0.48899585,0.004,80.0,male,lower extremity,deep_missed_or_shifted_mel,medium-high,传统模型保住了 mel，但深度模型把它推向视觉相近类别，说明该图的恶性线索可能较弱或被局部良性纹理主导。
+ISIC_0030653,traditional_correct_deep_wrong,mel,mel,nv,0.38455585,0.012,65.0,female,back,deep_missed_or_shifted_mel,high,传统模型保住了 mel，但深度模型把它推向视觉相近类别，说明该图的恶性线索可能较弱或被局部良性纹理主导。
